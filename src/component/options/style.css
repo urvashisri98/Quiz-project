@@ -1,0 +1,34 @@
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px 30px 20px 30px;
+  width: 45%;
+  overflow: auto;
+}
+.options-box {
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.options-box:hover {
+  color: antiquewhite;
+  background-color: brown;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.selected {
+    background-color: lightblue !important;
+  }
+
+.corrected {
+  background-color: #aaffaa !important;
+}
+
